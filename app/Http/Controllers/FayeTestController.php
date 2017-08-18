@@ -23,6 +23,13 @@ class FayeTestController extends Controller
         $a = $this->faye->send('/messages', ['message'=>'test'], ['token' => '123']);
         $b = 'fdsfsd';
         $c = 'qeqeqw';
+        $v = 'fsdfds';
+        $status = '放到缓存区';
+        $status = '放到缓存区';
     }
 
+    public function ssddff(){
+        $sd = 'dfsdfsd';
+        $as = 'qwert';
+    }
 }
