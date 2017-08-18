@@ -22,6 +22,8 @@ class FayeTestController extends Controller
         // dd($this->faye);
         $a = $this->faye->send('/messages', ['message'=>'test'], ['token' => '123']);
         $v = 'fsdfds';
+
+        $status = '放到缓存区';
     }
 
 }
