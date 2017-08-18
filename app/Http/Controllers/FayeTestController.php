@@ -24,6 +24,11 @@ class FayeTestController extends Controller
         $v = 'fsdfds';
 
         $status = '放到缓存区';
+        $status = '放到缓存区';
     }
 
+    public function ssddff(){
+        $sd = 'dfsdfsd';
+        $as = 'qwert';
+    }
 }
